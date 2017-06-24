@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dubbo-admin:war exploded">
+    <output-path>$PROJECT_DIR$/../dubbo-admin/target/dubbo-admin-2.5.4-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dubbo-admin" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:${project.parent.version}" />
+          <element id="library" level="project" name="Maven: com.alibaba.citrus:citrus-webx-all:unknown" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:unknown" />
+          <element id="library" level="project" name="Maven: org.jboss.netty:netty:unknown" />
+          <element id="library" level="project" name="Maven: org.apache.mina:mina-core:unknown" />
+          <element id="library" level="project" name="Maven: org.glassfish.grizzly:grizzly-core:unknown" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:unknown" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:unknown" />
+          <element id="library" level="project" name="Maven: com.thoughtworks.xstream:xstream:unknown" />
+          <element id="library" level="project" name="Maven: org.apache.bsf:bsf-api:unknown" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:unknown" />
+          <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:unknown" />
+          <element id="library" level="project" name="Maven: com.netflix.curator:curator-framework:unknown" />
+          <element id="library" level="project" name="Maven: com.googlecode.xmemcached:xmemcached:unknown" />
+          <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:unknown" />
+          <element id="library" level="project" name="Maven: com.caucho:hessian:unknown" />
+          <element id="library" level="project" name="Maven: log4j:log4j:unknown" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:unknown" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:unknown" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:unknown" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:unknown" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:unknown" />
+          <element id="library" level="project" name="Maven: javax.cache:cache-api:unknown" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../dubbo-admin/target/dubbo-admin-2.5.4-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="dubbo-admin/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Customer" />
+        <module name="dubbo-admin" />
+        <module name="Provider" />
+        <module name="RemoteApi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Api" target="1.5" />
+      <module name="Customer" target="1.5" />
+      <module name="dubbo-admin" target="1.5" />
+      <module name="Provider" target="1.5" />
+      <module name="RemoteApi" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

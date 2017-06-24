@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.thrift:libthrift:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/unknown/libthrift-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/unknown/libthrift-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/unknown/libthrift-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

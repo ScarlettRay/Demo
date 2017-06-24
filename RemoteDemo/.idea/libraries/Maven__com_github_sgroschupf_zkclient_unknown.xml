@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.sgroschupf:zkclient:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/sgroschupf/zkclient/unknown/zkclient-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/sgroschupf/zkclient/unknown/zkclient-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/sgroschupf/zkclient/unknown/zkclient-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

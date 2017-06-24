@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.validation:validation-api:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/unknown/validation-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/unknown/validation-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/unknown/validation-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

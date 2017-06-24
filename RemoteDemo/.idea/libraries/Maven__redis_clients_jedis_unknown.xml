@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: redis.clients:jedis:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/unknown/jedis-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/unknown/jedis-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/unknown/jedis-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glassfish.grizzly:grizzly-core:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/grizzly/grizzly-core/unknown/grizzly-core-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/grizzly/grizzly-core/unknown/grizzly-core-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/grizzly/grizzly-core/unknown/grizzly-core-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

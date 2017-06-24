@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.googlecode.xmemcached:xmemcached:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/xmemcached/xmemcached/unknown/xmemcached-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/xmemcached/xmemcached/unknown/xmemcached-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/xmemcached/xmemcached/unknown/xmemcached-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

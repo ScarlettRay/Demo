@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: javax.cache:cache-api:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/cache/cache-api/unknown/cache-api-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/cache/cache-api/unknown/cache-api-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/cache/cache-api/unknown/cache-api-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

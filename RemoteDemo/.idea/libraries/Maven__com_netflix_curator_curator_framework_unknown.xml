@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.netflix.curator:curator-framework:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/curator/curator-framework/unknown/curator-framework-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/curator/curator-framework/unknown/curator-framework-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/curator/curator-framework/unknown/curator-framework-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

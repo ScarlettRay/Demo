@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jboss.netty:netty:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/netty/netty/unknown/netty-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/netty/netty/unknown/netty-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/netty/netty/unknown/netty-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
