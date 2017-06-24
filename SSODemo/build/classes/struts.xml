@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<!-- START SNIPPET: xworkSample -->
+<struts>
+	<constant name="struts.i18n.reload" value="false" />
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.configuration.xml.reload" value="false" />
+	<!-- 配置为开发模式 -->
+    <constant name="struts.devMode" value="true" />
+	<!-- 配置扩展名为action -->
+    <constant name="struts.action.extension" value="action" />
+    <!-- 配置主题 -->
+    <constant name="struts.ui.theme" value="simple" />
+
+    <package name="www.x.com"  extends="struts-default">       
+    <action name="Checklogin" class="com.x.www.CheckAction" method="check"></action>
+    </package>
+    
+    
+    
+	<package name="www.a.com" extends="struts-default" namespace="/DemoA">
+	<!-- 声明拦截器-->
+    <interceptors>
+    		<interceptor name="CheckPrivilegeInterceptor" class="struts_interceptors.SSOInterceptor"></interceptor>
+			<interceptor-stack name="myDefaultStack">
+					<interceptor-ref name="CheckPrivilegeInterceptor"></interceptor-ref>
+					<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+    </interceptors>
+    <!-- 修改默认拦截器栈 -->
+    <default-interceptor-ref name="myDefaultStack">
+    </default-interceptor-ref>
+        <global-results>
+    	<result name="SSOlogin">/index-A.jsp</result>
+    </global-results>
+		<action name="toLogin" class="com.a.www.DemoA" method="doLogin">
+			<result>/index-A.jsp</result>
+			<result name="login">/login-A.jsp</result>
+		</action>
+		<action name="login" class="com.a.www.DemoA" method="loginPage">
+				<result>/login-A.jsp</result>
+		</action>
+		<action name="addCookie" class="com.a.www.DemoA" method="addCookie"></action>
+	</package>
+	
+	
+	<package name="www.b.com" extends="struts-default" namespace="/DemoB">
+	
+	    <!-- 声明拦截器-->
+    <interceptors>
+    		<interceptor name="CheckPrivilegeInterceptor" class="struts_interceptors.SSOInterceptor"></interceptor>
+			<interceptor-stack name="myDefaultStack">
+					<interceptor-ref name="CheckPrivilegeInterceptor"></interceptor-ref>
+					<interceptor-ref name="defaultStack"></interceptor-ref>
+			</interceptor-stack>
+    </interceptors>
+    <!-- 修改默认拦截器栈 -->
+    <default-interceptor-ref name="myDefaultStack">
+    </default-interceptor-ref>
+    
+    <global-results>
+    	<result name="SSOlogin">/index-B.jsp</result>
+    </global-results>
+			<action name="toLogin" class="com.b.www.DemoB" method="doLogin">
+				<result>/index-B.jsp</result>
+				<result name="login">/login-B.jsp</result>
+			</action>
+			<action name="addCookie" class="com.b.www.DemoB" method="addCookie"></action>
+			<action name="login" class="com.b.www.DemoB" method="loginPage">
+				<result>/login-B.jsp</result>
+		</action>
+	</package>
+	
+	
+	<package name="test" extends="struts-default">
+		<action name="test" class="test.TestAction" method="test">
+			<result>/login-A.jsp</result>
+		</action>
+	</package>
+</struts>
